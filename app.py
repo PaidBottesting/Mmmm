@@ -1,27 +1,3 @@
-"""
-MIT License
-
-Copyright (c) 2021 Janindu Malshan
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-"""
-
 import os
 import glob
 import json
@@ -49,12 +25,12 @@ from helpers.admin_check import *
 
 bot = Client(
     "Music Stream Bot",
-    bot_token = os.environ["7385139018:AAH7Bou5YeNRKdxuwTAL1qeQ1Ynf62xRo5M"],
+    bot_token = os.environ["7759467837:AAGzJlrzCNJJ0-xnKkE9VGBgwc3qwkCr5qA"],
     api_id = int(os.environ["25178048"]),
     api_hash = os.environ["d2d5ccf4592270fd54ad9e2014c960e7"]
 )
 
-client = Client(os.environ["BQGAL8AAY5gTNUS3yD15AFp_27ZXcYYn09fSvlkXanTXA8FfZwbLqBJs0rQqAR717IijAS2-mAu3ozRygNRnOxwAEvh5cYQwrxzhCseP-D_sq4ULR1CD-apzELOYSbodswK_Wg9Bs6cveKjAjsYXPpaxavk3BUc51yG4_PO7j4kOrdYO22EDvzLT_nzrHxNjSrQbOw0acfciYW2mZ4KrJ_4SSv9QvMi08dgtbEqQNq9c7bCJeVLDXn6E-GZQiVhf7qOrEMg7Xto61U-ArUPC477o_9sbkeSArR8KZlPo76K20zu9oVMMbWtYa5m-gdzGnKFihSN4aaTrSPY1G9eRZ4-AHbkpqAAAAABvR5DwAA"], int(os.environ["25178048"]), os.environ["d2d5ccf4592270fd54ad9e2014c960e7"])
+client = Client(os.environ["BQBiMZkAUoGnnYY0CGEesTfwlWxZH8zSGOtrWqVfWZJNSjMxKT_JeuRAJ7E3WgtfKNNwUO_FBMRoc_hlpP6NbogfRGl7wPJ4Um4dEXJiq8AeW0UMTuYrWChuelW0rIYuUn8_Kogey3ZyD7TQ-XUzQG9MIlw6OfOO-cks36vgh_bvt28NrcnwKCuzN8WFZCIMwYzXGbfnNi6ZGYTo1kPLL-TkpmfQ4Wx3g5rpY8mpsPYC1m17DRgPJUs_j2i4O2f14aiEYC8zbBPGfbHzvSeuq69YQILaJ2ZKHR8M1B654OQXJAwGnk2Q96QUuL5KiikYzheiP4x-9MV1cf8TW2GXwrtq0ffgAAAAGuhmX6AA"]),(os.environ["25178048"]), os.environ["d2d5ccf4592270fd54ad9e2014c960e7"])
 
 app = PyTgCalls(client)
 
