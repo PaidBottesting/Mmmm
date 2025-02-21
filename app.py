@@ -30,7 +30,11 @@ bot = Client(
     api_hash = os.environ["d2d5ccf4592270fd54ad9e2014c960e7"]
 )
 
-client = Client(os.environ["BQBiMZkAUoGnnYY0CGEesTfwlWxZH8zSGOtrWqVfWZJNSjMxKT_JeuRAJ7E3WgtfKNNwUO_FBMRoc_hlpP6NbogfRGl7wPJ4Um4dEXJiq8AeW0UMTuYrWChuelW0rIYuUn8_Kogey3ZyD7TQ-XUzQG9MIlw6OfOO-cks36vgh_bvt28NrcnwKCuzN8WFZCIMwYzXGbfnNi6ZGYTo1kPLL-TkpmfQ4Wx3g5rpY8mpsPYC1m17DRgPJUs_j2i4O2f14aiEYC8zbBPGfbHzvSeuq69YQILaJ2ZKHR8M1B654OQXJAwGnk2Q96QUuL5KiikYzheiP4x-9MV1cf8TW2GXwrtq0ffgAAAAGuhmX6AA"]),(os.environ["25178048"]), os.environ["d2d5ccf4592270fd54ad9e2014c960e7"])
+client = Client(
+api_id=os.environ["BQBiMZkAUoGnnYY0CGEesTfwlWxZH8zSGOtrWqVfWZJNSjMxKT_JeuRAJ7E3WgtfKNNwUO_FBMRoc_hlpP6NbogfRGl7wPJ4Um4dEXJiq8AeW0UMTuYrWChuelW0rIYuUn8_Kogey3ZyD7TQ-XUzQG9MIlw6OfOO-cks36vgh_bvt28NrcnwKCuzN8WFZCIMwYzXGbfnNi6ZGYTo1kPLL-TkpmfQ4Wx3g5rpY8mpsPYC1m17DRgPJUs_j2i4O2f14aiEYC8zbBPGfbHzvSeuq69YQILaJ2ZKHR8M1B654OQXJAwGnk2Q96QUuL5KiikYzheiP4x-9MV1cf8TW2GXwrtq0ffgAAAAGuhmX6AA"],
+api_hash=os.environ["25178048"],
+session_name=os.environ["d2d5ccf4592270fd54ad9e2014c960e7"]
+)
 
 app = PyTgCalls(client)
 
